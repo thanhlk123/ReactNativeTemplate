@@ -4,5 +4,8 @@
     "description": "React Native Template",
     "repository": "git@github.com:thanhlk123/ReactNativeTemplate.git",
     "author": "Thanh Pham <phamngocthanh219972@gmail.com>",
-    "license": "MIT"
-  }
+    "license": "MIT",
+    "dependencies": {
+        "thanhlk123-react-native-template-js": "^1.0.0"
+    }
+}
