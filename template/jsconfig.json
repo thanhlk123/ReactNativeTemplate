@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "target": "es6",
+      "baseUrl": ".",
+      "paths": {
+        "utils/*": ["./src/utils/*"],
+        "containers/*": ["./src/containers/*"],
+        "components/*": ["./src/components/*"],
+        "apis/*": ["./src/apis/*"],
+        "selectors/*": ["./src/redux/selectors/*"],
+        "constants/*": ["./src/constants/*"],
+        "screens/*": ["./src/screens/*"],
+        "assets/*": ["./src/assets/*"],
+        "actions/*": ["./src/redux/actions/*"],
+        "actionsType": ["./src/redux/actionsType"],
+        "sagas": ["./src/redux/sagas"],
+        "reducers": ["./src/redux/reducers"],
+        "helpers/*": ["./src/helpers/*"],
+        "parses/*": ["./src/redux/parses/*"],
+        "store/*": ["./src/redux/store/*"],
+        "language/*": ["./src/i18n/*"],
+      }
+    },
+    "exclude": ["node_modules"]
+  }
